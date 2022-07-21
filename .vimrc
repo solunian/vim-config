@@ -35,6 +35,10 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
+au FileType markdown {
+    set textwidth=0 wrapmargin=1 formatoptions+=t formatoptions-=l spell
+    }
+
 syntax on
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
