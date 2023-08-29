@@ -6,7 +6,7 @@ Just pull any new changes to update the config.
 
 ```bash
 git clone https://github.com/solunian/vim-config.git .vim
-cp .vim/.vimrc ./
+cp .vim/.vimrc .
 ```
 
 Uses the [catppuccin](https://github.com/catppuccin/vim) theme that goes with the
