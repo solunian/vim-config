@@ -29,15 +29,15 @@ set noundofile
 
 filetype plugin indent on
 " show existing tab with 4 spaces width
-set tabstop=4
+set tabstop=2
 " when indenting with '>', use 4 spaces width
-set shiftwidth=4
+set shiftwidth=2
 " On pressing tab, insert 4 spaces
 set expandtab
 
 au FileType markdown {
-    set textwidth=0 wrapmargin=1 formatoptions+=t formatoptions-=l spell
-    }
+  set textwidth=0 wrapmargin=1 formatoptions+=t formatoptions-=l spell
+  }
 
 syntax on
 
@@ -49,3 +49,6 @@ set laststatus=2
 
 let g:lightline = {'colorscheme': 'catppuccin_macchiato'}
 set noshowmode
+
+" show the commands being typed out
+set showcmd
